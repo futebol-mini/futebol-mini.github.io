@@ -1,7 +1,7 @@
 export const url = process.env.URL || 'http://localhost:8080';
 // Extract domain from `url`
 export const domain = new URL(url).hostname;
-export const siteName = 'Eleventy Excellent';
+export const siteName = 'Futebol Mini';
 export const siteDescription = 'Eleventy starter for building modern, resilient websites';
 export const siteType = 'Person'; // schema
 export const locale = 'en_EN';
@@ -20,7 +20,7 @@ export const creator = {
   website: 'https://www.lenesaile.com',
   social: 'https://front-end.social/@lene'
 };
-export const pathToSvgLogo = 'src/assets/svg/misc/logo.svg'; // used for favicon generation
+export const pathToSvgLogo = 'src/assets/svg/misc/futbol.svg'; // used for favicon generation
 export const themeColor = '#dd4462'; // used in manifest, for example primary color value
 export const themeLight = '#f8f8f8'; // used for meta tag theme-color, if light colors are prefered. best use value set for light bg
 export const themeDark = '#2e2e2e'; // used for meta tag theme-color, if dark colors are prefered. best use value set for dark bg
