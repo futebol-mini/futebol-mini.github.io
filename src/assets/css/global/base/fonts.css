@@ -35,5 +35,5 @@
   font-weight: 900;
   src:
     local(''),
-    url('/assets/fonts/redhat/red-hat-display-v7-latin-900.woff2') format('woff2');
+    url('/assets/fonts/redhat/RedHatDisplay-Black.ttf') format("truetype");
 }
