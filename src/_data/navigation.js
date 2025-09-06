@@ -9,6 +9,10 @@ export default {
       url: '/rules/'
     },
     {
+      text: 'Eventos',
+      url: '/events/'
+    },
+    {
       text: 'Blog',
       url: '/blog/'
     }
