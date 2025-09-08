@@ -15,6 +15,10 @@ export default {
     {
       text: 'Blog',
       url: '/blog/'
+    },
+    {
+      text: 'Virtual',
+      url: '/virtual/'
     }
   ],
   bottom: [
