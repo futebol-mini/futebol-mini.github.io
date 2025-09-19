@@ -13,6 +13,7 @@ dotenv.config();
 
 // add yaml support
 import yaml from 'js-yaml';
+import { I18nPlugin } from "@11ty/eleventy";
 
 //  config import
 import {getAllPosts, showInSitemap, tagList} from './src/_config/collections.js';
@@ -67,6 +68,10 @@ export default async function (eleventyConfig) {
       },
       pictureAttributes: {}
     }
+  });
+
+  eleventyConfig.addPlugin(I18nPlugin, {
+    defaultLanguage: "pt"
   });
 
   // ---------------------  bundle
